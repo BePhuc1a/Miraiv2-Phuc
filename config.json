@@ -1,18 +1,85 @@
-﻿{
+{
     "DeveloperMode": false,
-    "AutoChangeName": false,
     "autoCreateDB": true,
     "allowInbox": true,
+    "selfListen": false,
+    "commandDisabled": [
+        "gai.js",
+        "morse.js",
+        "run.js"
+    ],
+    "eventDisabled": [],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "",
+    "BOTNAME": "Đệ Phúc",
     "PREFIX": "!",
-    "ADMINBOT": "",
+    "ADMINBOT": [
+        "1508676020",
+        "100068182370754",
+        "100023463607706",
+        "100036557302010",
+        "100068477359707",
+        "100044678739602"
+    ],
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "appstate.json"
+    "APPSTATEPATH": "appstate.json",
+    "caesar": {
+        "caeserPassword": "266303"
+    },
+    "checktt": {
+        "maxColumn": 10
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "gif": {
+        "TENOR": "73YIAOY3ACT1"
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "rankup": {
+        "unsendMessageAfter": 5
+    },
+    "rname": {
+        "APIKEY": "mi451266190"
+    },
+    "sauce": {
+        "SAUCENAO_API": "61e802b1478f8e85198f28ed6ac2de6efe5d0a41"
+    },
+    "shortlink": {
+        "bitlyAPI": ""
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyCNb02T1zOXvcnUp70xFp5H4VcWvBqJnWM",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "weather": {
+        "OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "log": {
+        "enable": true
+    },
+    "restart": {
+        "unsendMessageAfter": 5
+    },
+    "cung": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "safety-check": {
+        "APIKEY": "AIzaSyAyPQHnnLU2S6Fqy2x6eZIyFOQGe6Xwiek"
+    },
+    "ghép": {
+        "cooldownTime": 5
+    }
 }
