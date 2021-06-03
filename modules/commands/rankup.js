@@ -32,7 +32,7 @@ module.exports.event = async function({ api, event, Currencies, Users, client })
 
 	if (level > curLevel && level != 1) {
 		const nameUser = (await Users.getData(senderID)).name || (await Users.getInfo(senderID)).name;
-		var messsage = (typeof threadData.customRankup == "undefined") ? msg = "Trình độ chém gió của {name} đã đạt tới level {level}" : msg = threadData.customRankup,
+		var messsage = (typeof threadData.customRankup == "undefined") ? msg = "Chào vợ {name} em đã lên tới level {level}" : msg = threadData.customRankup,
 			arrayContent;
 
 		messsage = messsage
@@ -40,7 +40,7 @@ module.exports.event = async function({ api, event, Currencies, Users, client })
 			.replace(/\{level}/g, level);
 			
 		if (existsSync(__dirname + "/cache/rankup/")) mkdirSync(__dirname + "/cache/rankup/", { recursive: true });
-		if (existsSync(__dirname + `/cache/rankup/${event.threadID}.gif`)) arrayContent = { body: messsage, attachment: createReadStream(__dirname + `/cache/rankup/${event.threadID}.gif`), mentions: [{ tag: nameUser, id: senderID }] };
+		if (existsSync(__dirname + `/cache/rankup/lvup.gif`)) arrayContent = { body: messsage, attachment: createReadStream(__dirname + `/cache/rankup/lvup.gif`), mentions: [{ tag: nameUser, id: senderID }] };
 		else arrayContent = { body: messsage, mentions: [{ tag: nameUser, id: senderID }] };
 		api.sendMessage(arrayContent, threadID);
 	}
