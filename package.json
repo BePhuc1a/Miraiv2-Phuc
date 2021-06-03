@@ -1,0 +1,80 @@
+{
+	"name": "miraiBot",
+	"version": "1.1.2",
+	"description": "A simple Facebook Messenger Bot made by me(CatalizCS) and my brother SpermLord.",
+	"main": "mirai.js",
+	"engines": {
+		"node": "14.x"
+	},
+	"scripts": {
+		"start": "pm2 start pm2.config.js --no-daemon",
+		"login": "node login",
+		"test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/catalizcs/miraiv2.git"
+	},
+	"keywords": [
+		"bot",
+		"facebook",
+		"projectmirai",
+		"messenger",
+		"mirai",
+		"catalizcs",
+		"spermlord"
+	],
+	"author": "CatalizCS & SpermLord",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/catalizcs/miraiv2/issues"
+	},
+	"homepage": "https://github.com/catalizcs/miraiv2#readme",
+	"dependencies": {
+		"@ffmpeg-installer/ffmpeg": "^1.0.20",
+		"amlich": "0.0.2",
+		"axios": "^0.21.1",
+		"bitly": "^7.1.2",
+		"body-parser": "",
+		"caesar-salad": "",
+		"canvas": "^2.8.0",
+		"chalk": "",
+		"child_process": "",
+		"fast-speedtest-api": "^0.3.2",
+		"fca-unofficial": "",
+		"figlet": "",
+		"fluent-ffmpeg": "^2.1.2",
+		"fs": "0.0.1-security",
+		"fs-extra": "^10.0.0",
+		"jimp": "^0.16.1",
+		"lyrics-finder": "^21.7.0",
+		"merge-images": "^2.0.0",
+		"minimist": "",
+		"moment": "",
+		"ms": "",
+		"node-cmd": "^4.0.0",
+		"node-fetch": "^2.6.1",
+		"node-superfetch": "^0.2.3",
+		"npmlog": "",
+		"parse-ms": "^3.0.0",
+		"path": "^0.12.7",
+		"pm2": "",
+		"qrcode": "^1.4.4",
+		"readline": "",
+		"request": "^2.88.2",
+		"safe-browse-url-lookup": "^0.1.1",
+		"sagiri": "^3.1.1",
+		"semver": "",
+		"sequelize": "",
+		"simple-youtube-api": "^5.2.1",
+		"soundcloud-downloader": "^1.0.0",
+		"sqlite3": "",
+		"string-similarity": "",
+		"systeminformation": "^5.7.4",
+		"tinyurl": "^1.1.7",
+		"totp-generator": "",
+		"wait-on": "^5.3.0",
+		"wikijs": "^6.2.1",
+		"ytdl-core": "^4.8.2"
+	}
+}

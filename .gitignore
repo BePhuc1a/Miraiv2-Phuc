@@ -1,0 +1,15 @@
+appstate.json
+package-lock.json
+.env
+.npm
+*.tgz
+*.mp3
+*.mp4
+*.png
+*.gif
+node_modules/
+logs/
+includes/data.sqlite
+fbstate.json
+modules/commands/cache/*
+modules/events/cache/*

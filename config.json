@@ -1,0 +1,18 @@
+﻿{
+    "DeveloperMode": false,
+    "AutoChangeName": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "",
+    "PREFIX": "!",
+    "ADMINBOT": "",
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json"
+}
